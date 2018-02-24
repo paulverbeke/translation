@@ -1,5 +1,5 @@
   
-  Some strings have variables in them. They are marked by curly braces e.g. {variable}.
+  Some strings have variables in them. They are marked by curly braces e.g. `{variable}`.
   
   Example: 
   
