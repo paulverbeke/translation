@@ -13,15 +13,19 @@
   
   Here's an example: 
   
-  `"post-ad.logged-out-notice": "In order to post a new ad please {log-in} or {sign-up}",
-  "post-ad.logged-out-notice-log-in": "log in",
-  "post-ad.logged-out-notice-sign-up": "sign up"`
+  `"post-ad.logged-out-notice": "In order to post a new ad please {log-in} or {sign-up}",`
+  
+  `"post-ad.logged-out-notice-log-in": "log in",`
+  
+  `"post-ad.logged-out-notice-sign-up": "sign up"`
   
   After translation it should like this: 
   
-  `"post-ad.logged-out-notice": "Чтобы создать объявление, {log-in} или {sign-up}",
-  "post-ad.logged-out-notice-log-in": "войдите",
-  "post-ad.logged-out-notice-sign-up": "зарегистрируйтесь"`
+  `"post-ad.logged-out-notice": "Чтобы создать объявление, {log-in} или {sign-up}",`
+  
+  `"post-ad.logged-out-notice-log-in": "войдите",`
+  
+  `"post-ad.logged-out-notice-sign-up": "зарегистрируйтесь"`
   
   Also some strings have HTML tags in them. They need to be preserved in the relevant place.
   
