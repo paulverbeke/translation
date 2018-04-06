@@ -649,7 +649,7 @@
 
   "signup-success.title": "注冊成功！",
   "signup-success.letter-sent": "驗証信已發送到您的電子郵件。",
-  "signup-success.login": "您現在可以使用您的帳戶登錄。",
+  "signup-success.login": "您现在将被重定向到首页面。",
 
   "guide.2fa.title": "如何啟用雙重身份驗証",
   "guide.2fa.step-one-title": "第一步",
@@ -1138,7 +1138,34 @@
   "request-password-reset.letter-sent": "發送了!",
 
   "wallet.unavailable-error":"錢包目前無法使用{linebreak}請檢查我們的{twitter}維護公告或{open-a-ticket}",
-  "wallet.unavailable-error-open-a-ticket":"創建工單"
+  "wallet.unavailable-error-open-a-ticket":"創建工單",
+
+  "error.trade-request.150": "因為這個交易者阻止了你，你不能向他發交易請求，試著尋找其他交易者。",
+  "error.trade-request.151": "此廣告僅適用於發布廣告用戶的可信用戶，請嘗試尋找其他廣告。",
+
+  "trade.feedback.trust": "可信",
+  "trade.feedback.block": "阻止",
+
+  "user.trust-btn": "信任{username}",
+  "user.untrust-btn": "禁止信任{username}",
+  "user.trust-status": "你信任{username}",
+  "user.trust-status-description": "他將能向你僅為可信用戶發布的廣告發送交易請求",
+  "user.block-btn": "阻止{username}",
+  "user.unblock-btn": "取消阻止{username}",
+  "user.block-status": "你正在阻止{username}",
+  "user.block-status-description": "他將無法向你的廣告發送交易請求",
+  "user.update-feedback-title": "更新留給{username}的評價",
+
+  "post-ad.for-trusted-switch-label": "僅適用於可信用戶",
+  "post-ad.for-trusted-switch-description": "僅允許你標記為可信的用戶向此廣告發送交易請求",
+
+  "chat.security-warning": "不要打开你在交易聊天中收到的任何外部链接，也不要从外部下载从其他用户收到的任何文件。对所有LocalMonero活动最好使用单独的浏览器。",
+  "footer.bounty": "安全奖",
+
+  "user.cache-disclaimer": "每小时更新一次",
+
+  "wallet.update-soft-warn": "新版本的Monero軟件已經出來，別忘了{update}你的錢包！",
+  "wallet.update-soft-warn-update": "更新"
 
 }
 
