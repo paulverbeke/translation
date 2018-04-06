@@ -649,7 +649,7 @@
 
   "signup-success.title": "注册成功！",
   "signup-success.letter-sent": "验证信已发送到您的电子邮件。",
-  "signup-success.login": "您现在可以使用您的帐户登录。",
+  "signup-success.login": "您现在将被重定向到首页面。",
 
   "guide.2fa.title": "如何启用双重身份验证",
   "guide.2fa.step-one-title": "第一步",
@@ -1139,6 +1139,33 @@
   "request-password-reset.letter-sent": "发送了!",
 
   "wallet.unavailable-error":"钱包目前无法使用{linebreak}请检查我们的{twitter}维护公告或{open-a-ticket}",
-  "wallet.unavailable-error-open-a-ticket":"创建工单"
+  "wallet.unavailable-error-open-a-ticket":"创建工单",
+
+  "error.trade-request.150": "因为这个交易者阻止了你，你不能向他发交易请求，试着寻找其他交易者。",
+  "error.trade-request.151": "此广告仅适用于发布广告用户的可信用户，请尝试寻找其他广告。",
+
+  "trade.feedback.trust": "可信",
+  "trade.feedback.block": "阻止",
+
+  "user.trust-btn": "信任{username}",
+  "user.untrust-btn": "禁止信任{username}",
+  "user.trust-status": "你信任{username}",
+  "user.trust-status-description": "他将能向你仅为可信用户发布的广告发送交易请求",
+  "user.block-btn": "阻止{username}",
+  "user.unblock-btn": "取消阻止{username}",
+  "user.block-status": "你正在阻止{username}",
+  "user.block-status-description": "他将无法向你的广告发送交易请求",
+  "user.update-feedback-title": "更新留给{username}的评价",
+
+  "post-ad.for-trusted-switch-label": "仅适用于可信用户",
+  "post-ad.for-trusted-switch-description": "仅允许你标记为可信的用户向此广告发送交易请求",
+
+  "chat.security-warning": "不要打开你在交易聊天中收到的任何外部链接，也不要从外部下载从其他用户收到的任何文件。对所有LocalMonero活动最好使用单独的浏览器。",
+  "footer.bounty": "安全奖",
+
+  "user.cache-disclaimer": "每小时更新一次",
+
+  "wallet.update-soft-warn": "新版本的Monero软件已经出来，别忘了{update}你的钱包！",
+  "wallet.update-soft-warn-update": "更新"
 
 }
