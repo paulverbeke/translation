@@ -624,7 +624,7 @@
   "dashboard.trade.table-view-btn:": "View",
   "signup-success.title": "Registration success!",
   "signup-success.letter-sent": "A verification letter has been sent to your email.",
-  "signup-success.login": "You can now log in using your account.",
+  "signup-success.login": "You will now be redirected to the homepage.",
   "guide.2fa.title": "How to enable two-factor authentication",
   "guide.2fa.step-one-title": "Step 1",
   "guide.2fa.step-one-text-0": "Two-factor authentication (2FA) is enabled from the 'Two-factor authentication' tab on the settings page. When activating two-factor authentication it is very important that you <strong> write down the backup code </strong> and keep it in a safe place, preferably on paper. If you lose access to your two-factor codes you will not be able to log in to your account and LocalMonero will not be able to help you. That's the point of 2FA. <strong> Use at your own risk. </strong>",
@@ -1090,6 +1090,33 @@
   "request-password-reset.letter-sent": "Sent!",
 
   "wallet.unavailable-error": "The wallet is currently unavailable. {linebreak} Please check our {twitter} for maintenance announcements or {open-a-ticket}.",
-  "wallet.unavailable-error-open-a-ticket": "open a ticket"
+  "wallet.unavailable-error-open-a-ticket": "open a ticket",
+
+  "error.trade-request.150": "You can't start a trade because this trader has blocked you. Try looking for other traders.",
+  "error.trade-request.151": "This ad is only for users trusted by the ad poster. Try looking for other ads.",
+
+  "trade.feedback.trust": "Trustworthy",
+  "trade.feedback.block": "Block user",
+
+  "user.trust-btn": "Trust {username}",
+  "user.untrust-btn": "Untrust {username}",
+  "user.trust-status": "You are trusting {username}",
+  "user.trust-status-description": "They will be able to respond to ads you have made for trusted users only",
+  "user.block-btn": "Block {username}",
+  "user.unblock-btn": "Unblock {username}",
+  "user.block-status": "You are blocking {username}",
+  "user.block-status-description": "They will not be able to respond to your ads",
+  "user.update-feedback-title": "Update feedback on {username}",
+
+  "post-ad.for-trusted-switch-label": "For trusted users only",
+  "post-ad.for-trusted-switch-description": "Makes this ad accessible only for the users you have marked as trusted",
+
+  "chat.security-warning": "Do not open any external links you receive in the chat or download any files received from other users externally. It is best to use a separate browser for all your LocalMonero activity.",
+  "footer.bounty": "Security bounty",
+
+  "user.cache-disclaimer": "Updated once an hour",
+
+  "wallet.update-soft-warn": "New version of Monero software is out. Don't forget to {update} your wallet!",
+  "wallet.update-soft-warn-update": "update"
 
 }
