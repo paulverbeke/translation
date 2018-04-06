@@ -649,7 +649,7 @@
 
   "signup-success.title": "Регистрация успешна!",
   "signup-success.letter-sent": "Вам был отправлено письмо с инструкциями по подтверждению почтового адреса.",
-  "signup-success.login": "Теперь вы можете войти в свою учётную запись.",
+  "signup-success.login": "Сейчас вы будете перенаправлены на главную страницу.",
 
   "guide.2fa.title": "Как включить двухфакторную аутентификацию для моей учетной записи? ",
   "guide.2fa.step-one-title": "Шаг 1",
@@ -1165,7 +1165,33 @@
   "request-password-reset.letter-sent": "Отправлено!",
 
   "wallet.unavailable-error": "В настоящий момент, кошелёк недоступен. {linebreak} Пожалуйста, проверьте есть ли объявления на нашем {twitter} или {open-a-ticket}.",
-  "wallet.unavailable-error-open-a-ticket": "откройте тикет с описанием вашей проблемы"
+  "wallet.unavailable-error-open-a-ticket": "откройте тикет с описанием вашей проблемы",
 
+  "error.trade-request.150": "Вы не можете начать сделку, потому что этот пользователь заблокировал вас. Попробуйте найти другого торговца.",
+  "error.trade-request.151": "Это объявление только для пользователей, которым доверяет автор объявления. Попробуйте найти другое объявление.",
+
+  "trade.feedback.trust": "Доверенный",
+  "trade.feedback.block": "Заблокировать",
+
+  "user.trust-btn": "Доверять {username}",
+  "user.untrust-btn": "Не доверять {username}",
+  "user.trust-status": "Вы доверяете {username}",
+  "user.trust-status-description": "Пользователь сможет откликнуться на объявления, которые вы сделали доступными только для доверенных лиц.",
+  "user.block-btn": "Заблокировать {username}",
+  "user.unblock-btn": "Разблокировать {username}",
+  "user.block-status": "Вы блокируете {username}",
+  "user.block-status-description": "Пользователь не сможет откликнуться на ваши объявления",
+  "user.update-feedback-title": "Обновить отзыв о {username}",
+
+  "post-ad.for-trusted-switch-label": "Только для доверенных",
+  "post-ad.for-trusted-switch-description": "Делает данное объявление доступным только для доверенных пользователей",
+
+  "chat.security-warning": "Никогда не открывайте ссылки, полученные в чате, и не загружайте файлы, отправленные вам другими пользователями вне сайта. Лучше всего использовать отдельный браузер для всей вашей активности на LocalMonero.",
+  "footer.bounty": "Охота за ошибками",
+
+  "user.cache-disclaimer": "Обновляется раз в час",
+
+  "wallet.update-soft-warn": "Вышла новая версия программного обеспечения Монеро. Не забудьте {update} ваш кошелёк!",
+  "wallet.update-soft-warn-update": "обновить"
 
 }
