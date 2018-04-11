@@ -1192,6 +1192,9 @@
   "user.cache-disclaimer": "Обновляется раз в час",
 
   "wallet.update-soft-warn": "Вышла новая версия программного обеспечения Монеро. Не забудьте {update} ваш кошелёк!",
-  "wallet.update-soft-warn-update": "обновить"
+  "wallet.update-soft-warn-update": "обновить",
+
+  "error.captcha": "Ошибка reCAPTCHA, пожалуйста перезагрузите страницу и попробуйте ещё раз",
+  "settings.resend-letter-dialog.title": "Пожалуйста выполните reCAPTCHA"
 
 }
