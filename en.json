@@ -1117,6 +1117,9 @@
   "user.cache-disclaimer": "Updated once an hour",
 
   "wallet.update-soft-warn": "New version of Monero software is out. Don't forget to {update} your wallet!",
-  "wallet.update-soft-warn-update": "update"
+  "wallet.update-soft-warn-update": "update",
+
+  "error.captcha": "reCAPTCHA failed, please refresh the page and try again",
+  "settings.resend-letter-dialog.title": "Please complete reCAPTCHA"
 
 }
