@@ -194,7 +194,7 @@
   "settings.notifications.escrow-release-long": "Отправлять уведомления на почту при отправке Монеро из депонирования платежа",
   "settings.notifications.escrow-release-tip": "Отправлять уведомления на почту при каждой новой отправке Монеро из депонирования платежа",
   "settings.personal-info": "О себе",
-  "settings.personal-info-tip": "Показывается в общедоступном профиле. Максимум 512 символов. Можно использовать Markdown для оформления.",
+  "settings.personal-info-tip": "Показывается в общедоступном профиле. Максимум 65536 символов. Можно использовать Markdown для оформления.",
   "settings.homepage": "Ваш сайт",
   "settings.homepage-tip": "Показывается в общедоступном профиле. Только правильные URL (e.g. https://localmonero.co)",
   "settings.change-email.title": "Поменять или подтвердить адрес электронной почты",
@@ -490,7 +490,7 @@
 
   "trade.status.disputed-title": "Оспорена",
   "trade.status.disputed-text-0": "Сделка была оспорена {linebreak} {time}.",
-  "trade.status.disputed-text-1": "Пожалуйста подождите, пока администратор LocalMonero присоединится к чату и решит исход сделки. Покупатель и продавец не могут изменить статус сделки во время спора.",
+  "trade.status.disputed-text-1": "Пожалуйста подождите, пока администратор LocalMonero присоединится к чату и решит исход сделки.",
   "trade.status.cancelled-title": "Отменена",
   "trade.status.cancelled-text": "Сделка была отменена {linebreak} {time}.",
   "trade.status.completed-title": "Завершена",
@@ -574,14 +574,14 @@
   "trade.buyer-instruction-step-two-text-4": "Вы отметили платеж завершённым {time}",
   "trade.buyer-instruction-step-two-text-5": "Как только {username} подтвердит получение платежа, вам будут отправлены Монеро.",
   "trade.cancel-warning": "Совершили ошибку или хотите попробовать другого продавца? <strong> Никогда не отменяйте сделку, если вы уже заплатили продавцу.</strong>",
-  "trade.dispute-text": "В случае, если в ходе сделки возникают разногласия, вы можете начать спор. После этого, торгующие стороны не смогут изменить статус сделки и администратор LocalMonero свяжется с вами через чат сделки.",
+  "trade.dispute-text": "В случае, если в ходе сделки возникают разногласия, вы можете начать спор. После этого, администратор LocalMonero свяжется с вами через чат сделки.",
   "trade.dispute-btn": "Оспорить сделку",
   "trade.dialog-confirm-payment-title": "Подтверждение платежа",
   "trade.dialog-confirm-payment-text": "Вы, {username}, заявляете, что вы завершили платёж",
   "trade.dialog-confirm-payment-btn": "Подтверждаю завершение платежа",
   "trade.dialog-confirm-payment-btn-havent-paid": "Я ещё не заплатил",
   "trade.dialog-confirm-dispute-title": "Подтверждение спора",
-  "trade.dialog-confirm-dispute-text": "Пожалуйста подтвердите, что вы хотите оспорить эту сделку. После этого вы не сможете изменить её статус.",
+  "trade.dialog-confirm-dispute-text": "Пожалуйста подтвердите, что вы хотите оспорить эту сделку.",
   "trade.buyer-completed-payment-title": "Покупатель отметил платёж завершенным, ожидаем отправки Монеро продавцом",
   "trade.buyer-havent-completed-payment-title": "Ожидаем подтверждения оплаты покупателем",
   "trade.buyer-completed-payment-text": "Покупатель <strong>отметил платёж завершенным</strong>. Если вы получили платёж, <strong> отправьте Монеро </strong>, нажав на кнопку 'Отправить Монеро'.",
@@ -593,7 +593,7 @@
 
   "chat.title": "Отправить сообщение {user}",
   "chat.input-title": "Ваше сообщение",
-  "chat.input-tip": "Нажмите <strong>Enter</strong>, чтобы перейти на новую строку. Нажмите <strong>Alt+Enter</strong>, чтобы отправить сообщение. Максимум 512 символов. LocalMonero хранит сообщения в зашифрованном виде в течение 180 дней для разрешения торговых споров.",
+  "chat.input-tip": "Нажмите <strong>Enter</strong>, чтобы перейти на новую строку. Нажмите <strong>Alt+Enter</strong>, чтобы отправить сообщение. Максимум 65536 символов. LocalMonero хранит сообщения в зашифрованном виде в течение 180 дней для разрешения торговых споров.",
   "chat.btn": "Отправить сообщение",
   "chat.select-file": "Выберите файл...",
   "chat.upload-file": "Загрузить",
@@ -1195,6 +1195,13 @@
   "wallet.update-soft-warn-update": "обновить",
 
   "error.captcha": "Ошибка reCAPTCHA, пожалуйста перезагрузите страницу и попробуйте ещё раз",
-  "settings.resend-letter-dialog.title": "Пожалуйста выполните reCAPTCHA"
+  "settings.resend-letter-dialog.title": "Пожалуйста выполните reCAPTCHA",
+
+  "sso.logout-portal": "Вы выходите из системы...",
+  "sso.unverified-email-title": "Неподтверждённый email",
+  "sso.unverified-email-text": "Чтобы продолжить, вам нужно подтвердить ваш адрес электронной почты. Вы можете сделать это на {settings-page}.",
+  "sso.unverified-email-text-settings-page": "странице настроек",
+
+  "left-drawer.forums": "Форумы"
 
 }
