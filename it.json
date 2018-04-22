@@ -179,7 +179,7 @@
   "settings.notifications.escrow-release-long": "Inviami notifiche email quando l'escrow online viene rilasciato",
   "settings.notifications.escrow-release-tip": "Inviami notifiche email dalle nuove versioni di escrow online",
   "settings.personal-info": "Introduzione personale",
-  "settings.personal-info-tip": "Mostrato sul tuo profilo pubblico. Massimo 512 caratteri. Puoi usare markdown per lo styling del testo",
+  "settings.personal-info-tip": "Mostrato sul tuo profilo pubblico. Massimo 65536 caratteri. Puoi usare markdown per lo styling del testo",
   "settings.homepage": "Homepage",
   "settings.homepage-tip": "Mostrato sul tuo profilo pubblico. Accettiamo solo URL validi (ad es. https://localmonero.co)",
   "settings.change-email.title": "Modifica/verifica email",
@@ -466,7 +466,7 @@
   "ad-page.error.title": "Errore nella richiesta di scambio",
   "trade.status.disputed-title": "Contestato",
   "trade.status.disputed-text-0": "Questo scambio è stato contestato {linebreak} alle {time}.",
-  "trade.status.disputed-text-1": "Attendi che l'amministratore di LocalMonero si unisca alla chat e decida il risultato dello scambio. Le parti commerciali non possono modificare lo stato degli scambi durante la contestazione.",
+  "trade.status.disputed-text-1": "Attendi che l'amministratore di LocalMonero si unisca alla chat e decida il risultato dello scambio.",
   "trade.status.cancelled-title": "Cancellato",
   "trade.status.cancelled-text": "Questo scambio è stato cancellato {linebreak} alle {time}.",
   "trade.status.completed-title": "Completato",
@@ -554,14 +554,14 @@
   "trade.buyer-instruction-step-two-text-4": "Hai contrassegnato il pagamento come completato alle {time}",
   "trade.buyer-instruction-step-two-text-5": "Una volta che {username} conferma il pagamento, ti verranno rilasciati i Monero.",
   "trade.cancel-warning": "Hai fatto un errore o vuoi provare un altro venditore? <strong>Non annullare mai lo scambio se hai già pagato il venditore.</strong>",
-  "trade.dispute-text": "In caso di disaccordo in merito allo scambio è possibile avviare una controversia. Dopodiché, le parti di trading non saranno in grado di modificare lo stato del trade e il supporto di LocalMonero ti contatterà attraverso la chat di questo trade.",
+  "trade.dispute-text": "In caso di disaccordo in merito allo scambio è possibile avviare una controversia. Dopodiché, il supporto di LocalMonero ti contatterà attraverso la chat di questo trade.",
   "trade.dispute-btn": "Inizia una controversia",
   "trade.dialog-confirm-payment-title": "Conferma il pagamento",
   "trade.dialog-confirm-payment-text": "Tu, con username {username}, dichiari di aver completato il pagamento",
   "trade.dialog-confirm-payment-btn": "Conferma che il pagamento è stato completo",
   "trade.dialog-confirm-payment-btn-havent-paid": "Non ho ancora pagato",
   "trade.dialog-confirm-dispute-title": "Conferma contestazione",
-  "trade.dialog-confirm-dispute-text": "Si prega di confermare che si desidera avviare una controversia. Non sarai in grado di cambiare lo stato dello scambio.",
+  "trade.dialog-confirm-dispute-text": "Si prega di confermare che si desidera avviare una controversia.",
   "trade.buyer-completed-payment-title": "Il pagamento contrassegnato dall'acquirente come completo, in attesa rilasciare il deposito a garanzia del venditore",
   "trade.buyer-havent-completed-payment-title": "In attesa che il compratore confermi il pagamento",
   "trade.buyer-completed-payment-text": "L'acquirente ha <strong>contrassegnato il pagamento come completo</strong>. Se hai ricevuto il pagamento, <strong>rilascia l'impegno</strong> premendo il pulsante 'Rilascia Monero'.",
@@ -572,7 +572,7 @@
   "trade.subtitle-online-sell-advertisement": "pubblicità di vendita online",
   "chat.title": "Invia il messaggio a {user}",
   "chat.input-title": "Il tuo messaggio",
-  "chat.input-tip": "Premi <strong>Invio</strong> per iniziare una nuova riga, <strong>Alt + Invio</ strong> per inviare un messaggio. Massimo 512 caratteri. LocalMonero crittografa e memorizza i messaggi di chat per 180 giorni a scopo di mediazione delle controversie.",
+  "chat.input-tip": "Premi <strong>Invio</strong> per iniziare una nuova riga, <strong>Alt + Invio</ strong> per inviare un messaggio. Massimo 65536 caratteri. LocalMonero crittografa e memorizza i messaggi di chat per 180 giorni a scopo di mediazione delle controversie.",
   "chat.btn": "Invia messaggio",
   "chat.select-file": "Seleziona un file...",
   "chat.upload-file": "Carica",
@@ -1120,7 +1120,14 @@
   "wallet.update-soft-warn-update": "update",
 
   "error.captcha": "reCAPTCHA failed, please refresh the page and try again",
-  "settings.resend-letter-dialog.title": "Please complete reCAPTCHA"
+  "settings.resend-letter-dialog.title": "Please complete reCAPTCHA",
+
+  "sso.logout-portal": "You are being logged out...",
+  "sso.unverified-email-title": "Unverified email",
+  "sso.unverified-email-text": "You need to verify your email to continue. You can do it at the {settings-page}.",
+  "sso.unverified-email-text-settings-page": "settings page",
+
+  "left-drawer.forums": "Forum"
 
 
 }
