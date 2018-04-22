@@ -193,7 +193,7 @@
   "settings.notifications.escrow-release-long": "在線托管釋放時發送電子郵件通知",
   "settings.notifications.escrow-release-tip": "在線托管釋放時發送電子郵件通知",
   "settings.personal-info": "介紹",
-  "settings.personal-info-tip": "在您的公共資料上顯示。純文本，最多512個字符。可以用Markdown。",
+  "settings.personal-info-tip": "在您的公共資料上顯示。純文本，最多65536個字符。可以用Markdown。",
   "settings.homepage": "主頁",
   "settings.homepage-tip": "在您的公共資料上顯示（例如https://localmonero.co）",
   "settings.change-email.title": "更改/驗証電子郵箱",
@@ -574,14 +574,14 @@
   "trade.buyer-instruction-step-two-text-4": "你在{time}標記付款完成",
   "trade.buyer-instruction-step-two-text-5": "一旦{username}確認付款，門羅幣將會轉給您。",
   "trade.cancel-warning": "犯了一個錯誤，或想嘗試另一個賣家？ <strong>如果您已經向賣家付款，請不要取消</strong>",
-  "trade.dispute-text": "如果在交易中出現矛盾，則可以發起申訴。之后，交易雙方將無法更改交易狀態，LocalMonero員工將通過此交易與您聯系。",
+  "trade.dispute-text": "如果在交易中出現矛盾，則可以發起申訴。之后，LocalMonero員工將通過此交易與您聯系。",
   "trade.dispute-btn": "發起申訴",
   "trade.dialog-confirm-payment-title": "確認付款",
   "trade.dialog-confirm-payment-text": "你, {username}, 宣布您已完成付款",
   "trade.dialog-confirm-payment-btn": "確認付款完成",
   "trade.dialog-confirm-payment-btn-havent-paid": "我還沒付款",
   "trade.dialog-confirm-dispute-title": "確認申訴",
-  "trade.dialog-confirm-dispute-text": "請確認你要發起申訴。發起之后你不能更改交易狀態。",
+  "trade.dialog-confirm-dispute-text": "請確認你要發起申訴。",
   "trade.buyer-completed-payment-title": "買家標記付款完成，正在等待賣家釋放門羅幣",
   "trade.buyer-havent-completed-payment-title": "正在等待買家付款",
   "trade.buyer-completed-payment-text": "買方已<strong>標記付款完成</strong>。 如果您已經收到付款，請按“釋放門羅幣”按鈕<strong>釋放托管</strong>。",
@@ -593,7 +593,7 @@
 
   "chat.title": "給{user}留言",
   "chat.input-title": "你的留言",
-  "chat.input-tip": "<strong>輸入</strong>開始換行，<strong> Alt + Enter </strong>發送消息。最多512個字符。LocalMonero加密和存儲180天的聊天消息，用於爭議調解。",
+  "chat.input-tip": "<strong>輸入</strong>開始換行，<strong> Alt + Enter </strong>發送消息。最多65536個字符。LocalMonero加密和存儲180天的聊天消息，用於爭議調解。",
   "chat.btn": "發送",
   "chat.select-file": "附加文檔......",
   "chat.upload-file": "上轉",
@@ -743,7 +743,7 @@
   "guide.trade.block-3-text-0-payment-method": "付款方式",
   "guide.trade.block-3-text-0-currency": "貨幣",
   "guide.trade.block-3-text-0-this-list": "此列表",
-  "guide.trade.block-3-text-1": "<strong>市場價格或固定價格</strong><br/> 為您的廣告定價的簡單方法是輸入您希望高出門羅幣市場價的溢價。要輸入溢價，請在溢價字段中輸入一個百分數。如果要固定價格的話，就可以選“固定價格”模式並輸入想要的價格。<br/><br/> <strong> 最小/最大交易限額 </strong><br/> T最小交易限額用於設置用戶可以購買的最小金額。如果您將它設置為 5，而且您已將幣種設置為 EUR，表明用戶可以與您發起交易的最小交易額為 5 EUR。最大交易限額用於設置您想要接受的最大交易額。請注意，如果您輸入的金額大於您錢包中的門羅幣數量，實際的最大金額會設置為您錢包中的余額。<br/><br/> <strong> 交易條款 </strong><br/> 買家在發起與您的交易前看到的文本。推薦您為買家寫說明，讓買家了解如何進行交易以及您的任何具體說明。例如，隻有買家提交收據作為付款憑証后您才會放行門羅幣，或者您需要買家提供身份証明，就可以在交易條款中寫明。您可以瀏覽其他交易者的廣告，了解自己想要使用的付款方式，以便清楚地理解交易條款的內容。<br/><br/> <strong> 額外選項 </strong><br/><br/> <strong> 限制金額  </strong><br/>  您可以將廣告限制為僅可以發起指定金額的交易。如果您在框中輸入 20、30、60，潛在交易伙伴將僅可以發起 20、30 或 60 歐元的交易。<br/><br/> <strong> 付款詳細信息 </strong><br/>  在此處輸入與買家應如何付款相關的特定信息，可以是您的銀行賬號或電子郵件地址（如 PayPal）。<br/><br/> <strong> 最低評價分 </strong><br/> 最低評價分讓您可以設置通過廣告發起交易所需的反饋百分比最小值。<br/><br/> <strong> 新買家限額（XMR）</strong><br/>  這是對新用戶的特定最大交易額限制。如果之前沒有交易歷史記錄的新買家聯系您，這是他們能夠發起交易的最大金額。<br/><br/> <strong> 付款期限 </strong><br/> 在交易自動取消前，買家可以完成付款的時長。<br/><br/> <strong> 跟蹤流動性 </strong><br/> 如果您使用每日僅可以接受定額的付款方式出售門羅幣，可以使用此功能設置限制。啟用跟蹤流動性功能會在每次有人購買門羅幣時減小廣告的最大限額。<br/><br/> <strong> 識別騙子的快速技巧 </strong> <br/><br/><strong>欺詐的買家通常比較匆忙</strong> 。客戶越是催促您盡快完成交易，他的可疑性越大，真正的客戶總是十分有耐心。<br/><br/>欺詐的買家往往<strong>建議在托管外私下</strong>完成交易，然后並不完成他們應該完成的手續。<br/><br/> 對<strong>經過圖像處理軟件處理的付款証明</strong>要小心，確認收到資金后再放行門羅幣。隻有您確認已收到買家的付款后才需要釋放交易。<br/><br/><strong>不要打開交易伙伴發送給您的任何鏈接</strong>。如果您必須打開，請使用與您當前正在使用的瀏覽器不同的瀏覽器。<br/><br/>不要使用交易所用的瀏覽器打開LocalMonero之外的其他網站。<strong>使用不同的瀏覽器打開其他網站。</strong> <br/><br/> 在您的瀏覽器中為LocalMonero添加書簽，並始終使用書簽訪問網站。這能夠防止意外訪問釣魚網站，釣魚網站確實存在並且很容易讓人相信。",
+  "guide.trade.block-3-text-1": "<strong>市場價格或固定價格</strong><br/> 為您的廣告定價的簡單方法是輸入您希望高出門羅幣市場價的溢價。要輸入溢價，請在溢價字段中輸入一個百分數。如果要固定價格的話，就可以選“固定價格”模式並輸入想要的價格。<br/><br/> <strong> 最小/最大交易限額 </strong><br/> T最小交易限額用於設置用戶可以購買的最小金額。如果您將它設置為 5，而且您已將幣種設置為 EUR，表明用戶可以與您發起交易的最小交易額為 5 EUR。最大交易限額用於設置您想要接受的最大交易額。請注意，如果您輸入的金額大於您錢包中的門羅幣數量，實際的最大金額會設置為您錢包中的余額。<br/><br/> <strong> 交易條款 </strong><br/> 買家在發起與您的交易前看到的文本。推薦您為買家寫說明，讓買家了解如何進行交易以及您的任何具體說明。例如，隻有買家提交收據作為付款憑証后您才會放行門羅幣，或者您需要買家提供身份証明，就可以在交易條款中寫明。您可以瀏覽其他交易者的廣告，了解自己想要使用的付款方式，以便清楚地理解交易條款的內容。<br/><br/> <strong> 額外選項 </strong><br/><br/> <strong> 限制金額  </strong><br/>  您可以將廣告限制為僅可以發起指定金額的交易。如果您在框中輸入 20、30、60，潛在交易伙伴將僅可以發起 20、30 或 60 場外交易所的交易。<br/><br/> <strong> 付款詳細信息 </strong><br/>  在此處輸入與買家應如何付款相關的特定信息，可以是您的銀行賬號或電子郵件地址（如 PayPal）。<br/><br/> <strong> 最低評價分 </strong><br/> 最低評價分讓您可以設置通過廣告發起交易所需的反饋百分比最小值。<br/><br/> <strong> 新買家限額（XMR）</strong><br/>  這是對新用戶的特定最大交易額限制。如果之前沒有交易歷史記錄的新買家聯系您，這是他們能夠發起交易的最大金額。<br/><br/> <strong> 付款期限 </strong><br/> 在交易自動取消前，買家可以完成付款的時長。<br/><br/> <strong> 跟蹤流動性 </strong><br/> 如果您使用每日僅可以接受定額的付款方式出售門羅幣，可以使用此功能設置限制。啟用跟蹤流動性功能會在每次有人購買門羅幣時減小廣告的最大限額。<br/><br/> <strong> 識別騙子的快速技巧 </strong> <br/><br/><strong>欺詐的買家通常比較匆忙</strong> 。客戶越是催促您盡快完成交易，他的可疑性越大，真正的客戶總是十分有耐心。<br/><br/>欺詐的買家往往<strong>建議在托管外私下</strong>完成交易，然后並不完成他們應該完成的手續。<br/><br/> 對<strong>經過圖像處理軟件處理的付款証明</strong>要小心，確認收到資金后再放行門羅幣。隻有您確認已收到買家的付款后才需要釋放交易。<br/><br/><strong>不要打開交易伙伴發送給您的任何鏈接</strong>。如果您必須打開，請使用與您當前正在使用的瀏覽器不同的瀏覽器。<br/><br/>不要使用交易所用的瀏覽器打開LocalMonero之外的其他網站。<strong>使用不同的瀏覽器打開其他網站。</strong> <br/><br/> 在您的瀏覽器中為LocalMonero添加書簽，並始終使用書簽訪問網站。這能夠防止意外訪問釣魚網站，釣魚網站確實存在並且很容易讓人相信。",
   "guide.trade.block-3-text-2": "如果您無法確認用戶的身份，可以隨時{contact-support}獲取幫助。",
   "guide.trade.block-3-text-2-contact-support": "聯系客服",
   "guide.trade.block-4-title": "申訴",
@@ -1027,7 +1027,7 @@
   "warn.high-risk-method-0": "<strong>主意：</strong> 因為該付款方式是<strong>可逆的</strong>它是<strong>高風險的</strong>，被欺詐者常用。",
   "warn.high-risk-method-1": "即使你做了盡職調查，隻與有信譽的買家進行交易，也不能保証你不會遇到{method}申訴的情況。 您可以做以下事情來增加您的安全度：{linebreak} 1.請求買方的2張照片ID掃描（即護照和駕駛執照），確保{method}帳戶名稱與ID相符。 {linebreak} 2.告訴買家從{method}的電郵帳戶發送一封電子郵件（甚至可以告訴他們把交易ID和一些關於LocalMonero的消息放到電子郵件裡）{linebreak} 3.收取{method}交易的時設直很高的溢價。 例如，25％或更高。 這樣，如果您的{method}交易中有五分之一是詐騙（設交易金額相等），那麼您將被覆蓋。 {linebreak} 4.謹防高額交易。 嘗試先與交易者進行少量交易。 {linebreak}",
 
-  "keywords": "買門羅幣 買xmr 買門羅幣 現金 美元 歐元 人民幣 面對面 轉賬 出售",
+  "keywords": "買門羅幣 買xmr 賣門羅幣 現金 美元 場外交易所 人民幣 面對面 轉賬 出售",
   "description": "得到門羅幣。迅速，簡單並安全。在你旁邊。",
 
   "trade.title-local-buy": "使用現金以 {amountFiat} {currency} 購買 {amountXmr} XMR",
@@ -1168,7 +1168,14 @@
   "wallet.update-soft-warn-update": "更新",
 
   "error.captcha": "reCAPTCHA失敗，請刷新頁面並重試",
-  "settings.resend-letter-dialog.title": "請完成reCAPTCHA"
+  "settings.resend-letter-dialog.title": "請完成reCAPTCHA",
+
+  "sso.logout-portal": "您正在註銷...",
+  "sso.unverified-email-title": "未驗證的電子郵件",
+  "sso.unverified-email-text": "You您需要驗證您的電子郵件以繼續，您可以在{settings-page}上進行。",
+  "sso.unverified-email-text-settings-page": "設置頁面",
+
+  "left-drawer.forums": "論壇"
 
 }
 
