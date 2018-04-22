@@ -193,7 +193,7 @@
   "settings.notifications.escrow-release-long": "在线托管释放时发送电子邮件通知",
   "settings.notifications.escrow-release-tip": "在线托管释放时发送电子邮件通知",
   "settings.personal-info": "介绍",
-  "settings.personal-info-tip": "在您的公共资料上显示。纯文本，最多512个字符。可以用Markdown。",
+  "settings.personal-info-tip": "在您的公共资料上显示。纯文本，最多65536个字符。可以用Markdown。",
   "settings.homepage": "主页",
   "settings.homepage-tip": "在您的公共资料上显示（例如https://localmonero.co）",
   "settings.change-email.title": "更改/验证电子邮箱",
@@ -574,7 +574,7 @@
   "trade.buyer-instruction-step-two-text-4": "你在{time}标记付款完成",
   "trade.buyer-instruction-step-two-text-5": "一旦{username}确认付款，门罗币将会转给您。",
   "trade.cancel-warning": "犯了一个错误，或想尝试另一个卖家？ <strong>如果您已经向卖家付款，请不要取消</strong>",
-  "trade.dispute-text": "如果在交易中出现矛盾，则可以发起申诉。之后，交易双方将无法更改交易状态，LocalMonero员工将通过此交易与您联系。",
+  "trade.dispute-text": "如果在交易中出现矛盾，则可以发起申诉。之后，LocalMonero员工将通过此交易与您联系。",
   "trade.dispute-btn": "发起申诉",
   "trade.dialog-confirm-payment-title": "确认付款",
   "trade.dialog-confirm-payment-text": "你, {username}, 宣布您已完成付款",
@@ -593,7 +593,7 @@
 
   "chat.title": "给{user}留言",
   "chat.input-title": "你的留言",
-  "chat.input-tip": "<strong>输入</strong>开始换行，<strong> Alt + Enter </strong>发送消息。最多512个字符。LocalMonero加密和存储180天的聊天消息，用于争议调解。",
+  "chat.input-tip": "<strong>输入</strong>开始换行，<strong> Alt + Enter </strong>发送消息。最多65536个字符。LocalMonero加密和存储180天的聊天消息，用于争议调解。",
   "chat.btn": "发送",
   "chat.select-file": "附加文档......",
   "chat.upload-file": "上转",
@@ -743,7 +743,7 @@
   "guide.trade.block-3-text-0-payment-method": "付款方式",
   "guide.trade.block-3-text-0-currency": "货币",
   "guide.trade.block-3-text-0-this-list": "此列表",
-  "guide.trade.block-3-text-1": "<strong>市场价格或固定价格</strong><br/> 为您的广告定价的简单方法是输入您希望高出门罗币市场价的溢价。要输入溢价，请在溢价字段中输入一个百分数。如果要固定价格的话，就可以选“固定价格”模式并输入想要的价格。<br/><br/> <strong> 最小/最大交易限额 </strong><br/> T最小交易限额用于设置用户可以购买的最小金额。如果您将它设置为 5，而且您已将币种设置为 EUR，表明用户可以与您发起交易的最小交易额为 5 EUR。最大交易限额用于设置您想要接受的最大交易额。请注意，如果您输入的金额大于您钱包中的门罗币数量，实际的最大金额会设置为您钱包中的余额。<br/><br/> <strong> 交易条款 </strong><br/> 买家在发起与您的交易前看到的文本。推荐您为买家写说明，让买家了解如何进行交易以及您的任何具体说明。例如，只有买家提交收据作为付款凭证后您才会放行门罗币，或者您需要买家提供身份证明，就可以在交易条款中写明。您可以浏览其他交易者的广告，了解自己想要使用的付款方式，以便清楚地理解交易条款的内容。<br/><br/> <strong> 额外选项 </strong><br/><br/> <strong> 限制金额  </strong><br/>  您可以将广告限制为仅可以发起指定金额的交易。如果您在框中输入 20、30、60，潜在交易伙伴将仅可以发起 20、30 或 60 欧元的交易。<br/><br/> <strong> 付款详细信息 </strong><br/>  在此处输入与买家应如何付款相关的特定信息，可以是您的银行账号或电子邮件地址（如 PayPal）。<br/><br/> <strong> 最低评价分 </strong><br/> 最低评价分让您可以设置通过广告发起交易所需的反馈百分比最小值。<br/><br/> <strong> 新买家限额（XMR）</strong><br/>  这是对新用户的特定最大交易额限制。如果之前没有交易历史记录的新买家联系您，这是他们能够发起交易的最大金额。<br/><br/> <strong> 付款期限 </strong><br/> 在交易自动取消前，买家可以完成付款的时长。<br/><br/> <strong> 跟踪流动性 </strong><br/> 如果您使用每日仅可以接受定额的付款方式出售门罗币，可以使用此功能设置限制。启用跟踪流动性功能会在每次有人购买门罗币时减小广告的最大限额。<br/><br/> <strong> 识别骗子的快速技巧 </strong> <br/><br/><strong>欺诈的买家通常比较匆忙</strong> 。客户越是催促您尽快完成交易，他的可疑性越大，真正的客户总是十分有耐心。<br/><br/>欺诈的买家往往<strong>建议在托管外私下</strong>完成交易，然后并不完成他们应该完成的手续。<br/><br/> 对<strong>经过图像处理软件处理的付款证明</strong>要小心，确认收到资金后再放行门罗币。只有您确认已收到买家的付款后才需要释放交易。<br/><br/><strong>不要打开交易伙伴发送给您的任何链接</strong>。如果您必须打开，请使用与您当前正在使用的浏览器不同的浏览器。<br/><br/>不要使用交易所用的浏览器打开LocalMonero之外的其他网站。<strong>使用不同的浏览器打开其他网站。</strong> <br/><br/> 在您的浏览器中为LocalMonero添加书签，并始终使用书签访问网站。这能够防止意外访问钓鱼网站，钓鱼网站确实存在并且很容易让人相信。",
+  "guide.trade.block-3-text-1": "<strong>市场价格或固定价格</strong><br/> 为您的广告定价的简单方法是输入您希望高出门罗币市场价的溢价。要输入溢价，请在溢价字段中输入一个百分数。如果要固定价格的话，就可以选“固定价格”模式并输入想要的价格。<br/><br/> <strong> 最小/最大交易限额 </strong><br/> T最小交易限额用于设置用户可以购买的最小金额。如果您将它设置为 5，而且您已将币种设置为 EUR，表明用户可以与您发起交易的最小交易额为 5 EUR。最大交易限额用于设置您想要接受的最大交易额。请注意，如果您输入的金额大于您钱包中的门罗币数量，实际的最大金额会设置为您钱包中的余额。<br/><br/> <strong> 交易条款 </strong><br/> 买家在发起与您的交易前看到的文本。推荐您为买家写说明，让买家了解如何进行交易以及您的任何具体说明。例如，只有买家提交收据作为付款凭证后您才会放行门罗币，或者您需要买家提供身份证明，就可以在交易条款中写明。您可以浏览其他交易者的广告，了解自己想要使用的付款方式，以便清楚地理解交易条款的内容。<br/><br/> <strong> 额外选项 </strong><br/><br/> <strong> 限制金额  </strong><br/>  您可以将广告限制为仅可以发起指定金额的交易。如果您在框中输入 20、30、60，潜在交易伙伴将仅可以发起 20、30 或 60 场外交易所的交易。<br/><br/> <strong> 付款详细信息 </strong><br/>  在此处输入与买家应如何付款相关的特定信息，可以是您的银行账号或电子邮件地址（如 PayPal）。<br/><br/> <strong> 最低评价分 </strong><br/> 最低评价分让您可以设置通过广告发起交易所需的反馈百分比最小值。<br/><br/> <strong> 新买家限额（XMR）</strong><br/>  这是对新用户的特定最大交易额限制。如果之前没有交易历史记录的新买家联系您，这是他们能够发起交易的最大金额。<br/><br/> <strong> 付款期限 </strong><br/> 在交易自动取消前，买家可以完成付款的时长。<br/><br/> <strong> 跟踪流动性 </strong><br/> 如果您使用每日仅可以接受定额的付款方式出售门罗币，可以使用此功能设置限制。启用跟踪流动性功能会在每次有人购买门罗币时减小广告的最大限额。<br/><br/> <strong> 识别骗子的快速技巧 </strong> <br/><br/><strong>欺诈的买家通常比较匆忙</strong> 。客户越是催促您尽快完成交易，他的可疑性越大，真正的客户总是十分有耐心。<br/><br/>欺诈的买家往往<strong>建议在托管外私下</strong>完成交易，然后并不完成他们应该完成的手续。<br/><br/> 对<strong>经过图像处理软件处理的付款证明</strong>要小心，确认收到资金后再放行门罗币。只有您确认已收到买家的付款后才需要释放交易。<br/><br/><strong>不要打开交易伙伴发送给您的任何链接</strong>。如果您必须打开，请使用与您当前正在使用的浏览器不同的浏览器。<br/><br/>不要使用交易所用的浏览器打开LocalMonero之外的其他网站。<strong>使用不同的浏览器打开其他网站。</strong> <br/><br/> 在您的浏览器中为LocalMonero添加书签，并始终使用书签访问网站。这能够防止意外访问钓鱼网站，钓鱼网站确实存在并且很容易让人相信。",
   "guide.trade.block-3-text-2": "如果您无法确认用户的身份，可以随时{contact-support}获取帮助。",
   "guide.trade.block-3-text-2-contact-support": "联系客服",
   "guide.trade.block-4-title": "申诉",
@@ -1028,7 +1028,7 @@
   "warn.high-risk-method-0": "<strong>主意：</strong> 因为该付款方式是<strong>可逆的</strong>它是<strong>高风险的</strong>，被欺诈者常用。",
   "warn.high-risk-method-1": "即使你做了尽职调查，只与有信誉的买家进行交易，也不能保证你不会遇到{method}申诉的情况。 您可以做以下事情来增加您的安全度：{linebreak} 1.请求买方的2张照片ID扫描（即护照和驾驶执照），确保{method}帐户名称与ID相符。 {linebreak} 2.告诉买家从{method}的电邮帐户发送一封电子邮件（甚至可以告诉他们把交易ID和一些关于LocalMonero的消息放到电子邮件里）{linebreak} 3.收取{method}交易的时设直很高的溢价。 例如，25％或更高。 这样，如果您的{method}交易中有五分之一是诈骗（设交易金额相等），那么您将被覆盖。 {linebreak} 4.谨防高额交易。 尝试先与交易者进行少量交易。 {linebreak}",
 
-  "keywords": "买门罗币 买xmr 买门罗币 现金 美元 欧元 人民币 面对面 转账 出售",
+  "keywords": "买门罗币 买xmr 卖门罗币 现金 美元 场外交易所 人民币 面对面 转账 出售",
   "description": "得到门罗币。迅速，简单并安全。在你旁边。",
 
   "trade.title-local-buy": "使用现金以 {amountFiat} {currency} 购买 {amountXmr} XMR",
@@ -1169,6 +1169,13 @@
   "wallet.update-soft-warn-update": "更新",
 
   "error.captcha": "reCAPTCHA失败，请刷新页面并重试",
-  "settings.resend-letter-dialog.title": "请完成reCAPTCHA"
+  "settings.resend-letter-dialog.title": "请完成reCAPTCHA",
+
+  "sso.logout-portal": "您正在注销...",
+  "sso.unverified-email-title": "未验证的电子邮件",
+  "sso.unverified-email-text": "You您需要验证您的电子邮件以继续，您可以在{settings-page}上进行。",
+  "sso.unverified-email-text-settings-page": "设置页面",
+
+  "left-drawer.forums": "论坛"
 
 }
