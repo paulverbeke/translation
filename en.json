@@ -179,7 +179,7 @@
   "settings.notifications.escrow-release-long": "Send email notifications for online escrow released",
   "settings.notifications.escrow-release-tip": "Send email notifications from new online escrow releases",
   "settings.personal-info": "Personal introduction",
-  "settings.personal-info-tip": "Shown on your public profile. Maximum 512 characters. Can use markdown for styling.",
+  "settings.personal-info-tip": "Shown on your public profile. Maximum 65536 characters. Can use markdown for styling.",
   "settings.homepage": "Homepage",
   "settings.homepage-tip": "Shown on your public profile. Only valid URL accepted (e.g. https://localmonero.co)",
   "settings.change-email.title": "Change/verify email",
@@ -466,7 +466,7 @@
   "ad-page.error.title": "Trade request error",
   "trade.status.disputed-title": "Disputed",
   "trade.status.disputed-text-0": "This trade has been disputed {linebreak} at {time}.",
-  "trade.status.disputed-text-1": "Please wait for LocalMonero administrator to join the chat and decide the trade's outcome. Trading parties cannot change trade's status during dispute.",
+  "trade.status.disputed-text-1": "Please wait for LocalMonero administrator to join the chat and decide the trade's outcome.",
   "trade.status.cancelled-title": "Cancelled",
   "trade.status.cancelled-text": "This trade has been cancelled {linebreak} at {time}.",
   "trade.status.completed-title": "Completed",
@@ -554,14 +554,14 @@
   "trade.buyer-instruction-step-two-text-4": "You have marked the payment complete at {time}",
   "trade.buyer-instruction-step-two-text-5": "Once {username} confirms the payment Monero will be released to you.",
   "trade.cancel-warning": "Made a mistake or want to try another seller? <strong>Never cancel if you have already paid the seller.</strong>",
-  "trade.dispute-text": "If there is a disagreement regarding the trade, you can start a dispute. After that, trading parties will not be able to change trade's status and LocalMonero support will contact you through this trade's chat.",
+  "trade.dispute-text": "If there is a disagreement regarding the trade, you can start a dispute. After that, LocalMonero support will contact you through this trade's chat.",
   "trade.dispute-btn": "Start a dispute",
   "trade.dialog-confirm-payment-title": "Confirm payment",
   "trade.dialog-confirm-payment-text": "You, {username}, declare that you have completed the payment",
   "trade.dialog-confirm-payment-btn": "Confirm payment complete",
   "trade.dialog-confirm-payment-btn-havent-paid": "I haven't paid yet",
   "trade.dialog-confirm-dispute-title": "Confirm dispute",
-  "trade.dialog-confirm-dispute-text": "Please confirm that you want to start a dispute. You will not be able to change trade's status after that.",
+  "trade.dialog-confirm-dispute-text": "Please confirm that you want to start a dispute.",
   "trade.buyer-completed-payment-title": "Buyer marked payment complete, waiting for seller to release the escrow",
   "trade.buyer-havent-completed-payment-title": "Waiting for buyer to confirm payment",
   "trade.buyer-completed-payment-text": "The buyer has <strong>marked the payment complete</strong>. If you have received the payment, <strong> release the escrow </strong> by pressing the 'Release Monero' button.",
@@ -572,7 +572,7 @@
   "trade.subtitle-online-sell-advertisement": "online sell advertisement",
   "chat.title": "Send message to {user}",
   "chat.input-title": "Your message",
-  "chat.input-tip": "<strong>Enter</strong> to start a new line, <strong>Alt+Enter</strong> to send a message. 512 characters maximum. LocalMonero encrypts and stores chat messages for 180 days for dispute mediation purposes.",
+  "chat.input-tip": "<strong>Enter</strong> to start a new line, <strong>Alt+Enter</strong> to send a message. 65536 characters maximum. LocalMonero encrypts and stores chat messages for 180 days for dispute mediation purposes.",
   "chat.btn": "Send message",
   "chat.select-file": "Select File...",
   "chat.upload-file": "Upload",
@@ -1120,6 +1120,13 @@
   "wallet.update-soft-warn-update": "update",
 
   "error.captcha": "reCAPTCHA failed, please refresh the page and try again",
-  "settings.resend-letter-dialog.title": "Please complete reCAPTCHA"
+  "settings.resend-letter-dialog.title": "Please complete reCAPTCHA",
+
+  "sso.logout-portal": "You are being logged out...",
+  "sso.unverified-email-title": "Unverified email",
+  "sso.unverified-email-text": "You need to verify your email to continue. You can do it at the {settings-page}.",
+  "sso.unverified-email-text-settings-page": "settings page",
+
+  "left-drawer.forums": "Forums"
 
 }
