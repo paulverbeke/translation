@@ -229,7 +229,7 @@
   "settings.2fa.network-error": "请求出了问题！ 尝试刷新页面并重复请求。",
   "settings.2fa.not-enabled-yet": "您的2FA尚未启用！ 您需要输入一次性密码才能激活它。",
   "settings.2fa.backup-code": "您的备用代码是：",
-  "settings.2fa.step-one": "{download-a-2fa-app}比如{freeotp}或{any-other-2fa-app}支持{totp}的2FA应用程序。",
+  "settings.2fa.step-one": "{download-a-2fa-app}比如{andotp}或{any-other-2fa-app}支持{totp}的2FA应用程序。",
   "settings.2fa.step-one-download-a-2fa-app": "下载2FA应用程序，",
   "settings.2fa.step-one-any-other-2fa-app": "任何其他",
   "settings.2fa.step-two": "<strong>在一张纸上写下您的备份代码</strong>（绿色部分），并将其存放在安全的地方。 如果您丢失手机，您将需要它，否则您将被锁定在您的帐户之外。 LocalMonero将无法帮助你，如果你失去了这个代码。",
@@ -371,7 +371,7 @@
   "post-ad.rules-text-0-guides": "指南",
   "post-ad.rules-text-1-0": "每笔完成的交易均会消耗广告主 1% 的总交易金额。",
   "post-ad.rules-text-1-1": "要想显示您的交易广告，您的LocalMonero钱包中需要有门罗币。使用网上付款的交易广告至少需要 {minimumXmrAmount} XMR。",
-  "post-ad.rules-text-1-2": "每个用户最多可以创建50个广告。",
+  "post-ad.rules-text-1-2": "每个用户最多可以创建{maximumNumberOfAds}个广告。",
   "post-ad.rules-text-1-3": "发起交易后，价格就会确定，除非定价中有明显的错误。",
   "post-ad.rules-text-1-4": "您不能代表其他人（由经纪人处理）购买或出售门罗币。",
   "post-ad.rules-text-1-5": "您仅可以使用以自己名字注册的付款帐户（非第三方付款！）。",
@@ -664,7 +664,7 @@
   "guide.2fa.step-three-title": "第三步",
   "guide.2fa.step-three-text": "<strong>这一点非常重要！记下页面上显示的备份代码</strong>，并将其记录在安全的位置，最好是纸上。",
   "guide.2fa.step-four-title": "第四步",
-  "guide.2fa.step-four-text": "在您的手机上安装身份验证应用。在手机上安装身份验证应用程序。 您可以{choose-any-app}支持TOTP的应用程序。例如，{free-otp}是免费和开源的，可在 Android、iOS 和 Windows Phone 上使用。",
+  "guide.2fa.step-four-text": "在您的手机上安装身份验证应用。在手机上安装身份验证应用程序。 您可以{choose-any-app}支持TOTP的应用程序。例如，{andotp}是免费和开源的，可在 Android、iOS 和 Windows Phone 上使用。",
   "guide.2fa.step-four-text-choose-any-app": "选择任何",
   "guide.2fa.step-five-title": "第五步",
   "guide.2fa.step-five-text": "启动您的智能手机上的身份验证器应用，然后选择“扫描条形码”。完成之后，双重身份验证代码将出现在身份验证器应用中。",
@@ -861,7 +861,7 @@
   "faq.answer-16": "门罗币是一种安全，私密，难以追踪的货币。 它是开源的，免费提供给所有人。 在门罗币，你是你自己的银行。只有你控制并负责你的资金; 您的账户和交易不会被窥视。 请查看{official-monero-faq}。",
   "faq.answer-16-official-monero-faq": "官方的门罗币FAQ",
   "faq.answer-17": "LocalMonero使用一种在您的公开资料上显示分数的评价体系。这一分数（百分比）会显示用户获得的正面评价百分比。您只能对用户进行一次评价。评价可为四种类型之一： 好评、一般评和差评。给出评价后，如果满足特定条件，评价将显示在用户的公开资料上，否则评价将保持未确认。未确认的评价仅对接收用户和LocalMonero管理员可见，并且不会影响评价得分。",
-  "faq.answer-18": "别人给出的评价可以是已确认或未确认的。已确认的评价将显示在用户的公开资料上，会影响用户的评价得分。未确认的评价仅对接收用户和LocalMonero管理员可见。未确认的评价要想得到确认，必须给出评价和接收评价的用户之间的交易必须大于2 XMR。",
+  "faq.answer-18": "别人给出的评价可以是已确认或未确认的。已确认的评价将显示在用户的公开资料上，会影响用户的评价得分。未确认的评价仅对接收用户和LocalMonero管理员可见。未确认的评价要想得到确认，必须给出评价和接收评价的用户之间的交易必须大于{minimumFeedbackAmount} XMR。",
   "faq.answer-19": "您在 LocalMonero 上获得新通知时，Web 通知允许您通过浏览器接收弹出通知。如果您正在进行门罗币交易并想在发生新事件时立即知道，{enable-web-notifications-from-your-profile}勾选显示启用Web通知的框，在您的浏览器询问是否允许显示 Web 通知时，按接受。您现在已经完成所有设置，可以开始接收 Web 通知。",
   "faq.answer-19-enable-web-notifications-from-your-profile": "从您的用户资料中启用Web通知",
   "faq.answer-20": "有时，交易者会索要您的ID。如果您第一次与一位交易者进行交易，他/她可能会要求您进行身份验证，即使您已经在LocalMonero上验证了您的ID。这是因为在一些国家/地区，当地法律要求卖家了解他们的客户身份。大部分卖家会在交易条款中说明是否需要验证ID。如果您不想将ID发送给卖家，可以随时取消交易，然后搜索没有严格要求的交易者。请务必通过交易聊天将您的ID发送给卖家，我们的交易聊天记录消息会在服务器上加密，并在180天后删除。所有发送至交易聊天的照片均会使用水印进行标记，以防止图片盗用。",
@@ -1014,7 +1014,7 @@
   "error.post-ad.107": "没有设定最大金额就无法设追踪流动性",
   "error.post-ad.114": "付款限期必须是15-90分钟",
   "error.post-ad.108": "最小交易金额不能等于或大于最大交易金额",
-  "error.post-ad.132": "创建广告不能超过50个。 请删除您的一个旧广告后再试创建这个广告。",
+  "error.post-ad.132": "创建广告不能超过{maximumNumberOfAds}个。 请删除您的一个旧广告后再试创建这个广告。",
 
   "error.withdraw.73&140": "密码或一次性密码错误",
   "error.withdraw.74&77": "余额不足",
@@ -1168,14 +1168,52 @@
   "wallet.update-soft-warn": "新版本的Monero软件已经出来，别忘了{update}你的钱包！",
   "wallet.update-soft-warn-update": "更新",
 
-  "error.captcha": "reCAPTCHA失败，请刷新页面并重试",
-  "settings.resend-letter-dialog.title": "请完成reCAPTCHA",
+  "error.captcha": "CAPTCHA失败，请刷新页面并重试",
+  "settings.resend-letter-dialog.title": "请完成CAPTCHA",
 
   "sso.logout-portal": "您正在注销...",
   "sso.unverified-email-title": "未验证的电子邮件",
   "sso.unverified-email-text": "You您需要验证您的电子邮件以继续，您可以在{settings-page}上进行。",
   "sso.unverified-email-text-settings-page": "设置页面",
 
-  "left-drawer.forums": "论坛"
+  "left-drawer.forums": "论坛",
+
+  "error.post-ad.142": "无法设置小于最小金额的费用限额。",
+  "error.post-ad.143": "无法设置超过最大金额的费用限额。",
+
+  "recaptcha.no-google-message": "我们注意到Google服务在您的浏览器中被阻止。 由于我们使用Google的reCAPTCHA进行某些网站操作，因此您需要找到下载Google服务的方式（例如，VPN，代理或使用Tor浏览器）。",
+  "recaptcha.crash-message": "加载reCAPTCHA时出错。 请刷新页面。",
+
+  "widget-instructions.title-no-affiliate": "门罗街头价小部件",
+  "widget-instructions.title-affiliate": "门罗街头价小部件（包含您的联盟代码）",
+  "widget-instructions.instructions": "要为您自己的网站获取门罗街头价小部件，请在下面选择所需的货币，以下代码粘贴到您自己的网页中（如果所选货币没​​有数据，则美元价格将显示）：",
+  "widget-instructions.affiliate-logged-out": "以将联盟代码附加到小部件请登录",
+  "widget-instructions.affiliate-not-enabled": "以将联盟代码附加到小部件请启用联盟合作",
+  "widget-instructions.affiliate-attach-code-checkbox": "将我的联盟代码添加到小部件",
+
+  "statistics.title": "统计",
+  "statistics.ticker-api-title": "LocalMonero平均价API",
+  "statistics.ticker-title": "基于已完成交易的平均XMR价格",
+  "statistics.ticker-subtitle": "只显示有数据的货币",
+  "statistics.ticker-1hr": "1小时：",
+  "statistics.ticker-6hr": "6小时：",
+  "statistics.ticker-12hr": "12小时：",
+  "statistics.ticker-24hr": "24小时：",
+  "statistics.no-data": "无数据",
+
+  "captcha.helper-text": "在上面的图像上输入文字",
+  "settings.resend-letter.sent": "发信！",
+
+  "document-title.search.buy.country-method": "使用{method}在{country}购买门罗币",
+  "document-title.search.buy.country": "在{country}购买门罗币",
+  "document-title.search.buy.currency": "为{currency}购买门罗币",
+  "document-title.search.buy.method": "用{method}购买门罗币",
+  "document-title.search.sell.country-method": "使用{method}在{country}中销售门罗币",
+  "document-title.search.sell.country": "在{country}出售门罗币",
+  "document-title.search.sell.currency": "为{currency}出售门罗币",
+  "document-title.search.sell.method": "使用{method}销售门罗币"
+
+
+
 
 }
