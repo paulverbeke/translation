@@ -1176,6 +1176,15 @@
 
   "faq.question-33": "How can I deposit/withdraw other cryptocurrencies to/from LocalMonero wallet?",
   "faq.answer-33": "You can withdraw coins from LocalMonero XMR wallet to a BTC, ETH, LTC, BCH or DASH wallet, and you can deposit to LocalMonero XMR wallet from a BTC, ETH, LTC, BCH or DASH wallet. The conversion of coins is handled by {morphtoken}. {morphtoken-faq-link}. {linebreak} If you want to withdraw XMR from LocalMonero wallet to a BTC, ETH, LTC, BCH or DASH wallet you need to check the 'I want to withdraw to a BTC, ETH, LTC, BCH or DASH wallet' box on the 'Send Monero' tab of the wallet page. In the appeared section select desired currency and enter the respective receiving BTC, ETH,  LTC, BCH or DASH address. Then you enter the amount in XMR, select the priority, and click 'Continue' just like you would when withdrawing as usual. Please note that the receive amount in XMR should be within the provided MorphToken limits. Then, after you have entered your password and (if enabled) one-time password,  LocalMonero will send your coins to MorphToken for conversion. You don't need to do anything at this point, and a new window where you can monitor the transaction status will be opened in you browser (if it isn't opened please click on the provided link and be sure to save it so you are able to see the transaction's flow). Should anything go wrong with the transaction, the coins will be refunded to your LocalMonero wallet. {linebreak} If you wish to deposit XMR to LocalMonero wallet from a BTC, ETH, LTC, BCH or DASH wallet you need to check the 'I want to deposit from a BTC, ETH, LTC, BCH or DASH wallet' box on the 'Receive Monero' tab of the wallet page. In the appeared section select desired deposit currency and enter the respective refund BTC, ETH, LTC, BCH or DASH address that will be used if anything goes wrong with the transaction. After you've done that, click on the 'Show me the deposit address!' button, which will open a window where you can see the deposit address and the required MorphToken deposit limits. Send the coins from your wallet to the provided MorphToken deposit address. At this point, MorphToken will convert your coins to XMR and transfer them to your LocalMonero wallet.",
-  "faq.answer-33-morphtoken-faq-link": "Here you can read more about how MorphToken works, their service and network fees"
+  "faq.answer-33-morphtoken-faq-link": "Here you can read more about how MorphToken works, their service and network fees",
+
+  "document-title.search.buy.country-method": "Buy Monero in {country} with {method}",
+  "document-title.search.buy.country": "Buy Monero in {country}",
+  "document-title.search.buy.currency": "Buy Monero for {currency}",
+  "document-title.search.buy.method": "Buy Monero with {method}",
+  "document-title.search.sell.country-method": "Sell Monero in {country} with {method}",
+  "document-title.search.sell.country": "Sell Monero in {country}",
+  "document-title.search.sell.currency": "Sell Monero for {currency}",
+  "document-title.search.sell.method": "Sell Monero with {method}"
 
 }
