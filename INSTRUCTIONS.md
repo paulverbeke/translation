@@ -1,5 +1,5 @@
   
-  **Some strings have variables in them. They are marked by curly braces e.g. `{variable}`.**
+  **Some strings have variables in them. They're marked by the curly braces e.g. `{variable}`.**
   
   Example: 
   
@@ -9,7 +9,7 @@
   
   `"trade.title-local-buy": "Покупка {amountXmr} XMR за {amountFiat} {currency}"`
   
-  **Some parts of the text strings need to be formatted as (for example) links, so they are stored as separate variables.**
+  **Some parts of the text strings need to be formatted as (for example) links, so they're stored as separate variables.**
   
   Here's an example: 
   
@@ -27,7 +27,7 @@
   
   `"post-ad.logged-out-notice-sign-up": "зарегистрируйтесь"`
   
-  **Also some strings have HTML tags in them. They need to be preserved in the relevant place.**
+  **Also, some strings have HTML tags in them. They need to be preserved in the relevant place.**
   
   Example:
   
@@ -36,5 +36,7 @@
   After translation:
   
  `"trade.status.not-escrowed-text-0": "Эта сделка <strong>не защищена депонированием</strong>."`
+ 
+ **FRONT_TYPE is either "LocalMonero" or "AgoraDesk". It acts just like a variable, but doesn't use the curly braces.**
 
   Please refer to existing language files as examples of the translation format.
